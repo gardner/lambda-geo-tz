@@ -1,0 +1,27 @@
+{
+  "name": "lambda-geo-tz",
+  "version": "1.0.0",
+  "description": "aws lambda deployment of node geo tz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gardner/lambda-geo-tz.git"
+  },
+  "keywords": [
+    "geo",
+    "timezone",
+    "lambda"
+  ],
+  "author": "Gardner Bickford <gbickford@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gardner/lambda-geo-tz/issues"
+  },
+  "homepage": "https://github.com/gardner/lambda-geo-tz#readme",
+  "dependencies": {
+    "geo-tz": "^3.3.4"
+  }
+}

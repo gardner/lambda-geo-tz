@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion : '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Serverless Geographic Timezone Resolution
+
+Resources:
+  Timezone:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs6.10
+      Timeout: 1984
+      MemorySize:
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /tz
+            Method: get
